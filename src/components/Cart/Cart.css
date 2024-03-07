@@ -1,0 +1,11 @@
+.cart{
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 200px;
+}
+a{
+    text-decoration: none;
+}

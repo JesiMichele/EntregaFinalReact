@@ -1,0 +1,18 @@
+/*.count {
+    display: flex;
+    justify-content: center;
+}
+.v {
+    display: flex;
+    justify-content: center;
+}
+.item {
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+.btn{
+    padding: 3px;
+}*/
