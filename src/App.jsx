@@ -9,7 +9,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ComponenteError from './components/ComponenteError/ComponenteError';
 import Cart from './components/Cart/Cart';
 import CartProvider from './Context/CartContext';
-import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import CardWidget from './components/CradWidget/CardWidget';
 import CheckOut from './components/CheckOut/CheckOut';
 
