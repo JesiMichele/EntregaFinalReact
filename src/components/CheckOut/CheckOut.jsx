@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { db } from '../../Firebase/config'
 import { collection, addDoc, updateDoc, doc, getDoc } from 'firebase/firestore'
 import { CartContext } from '../../Context/CartContext'
+import './CheckOut.css'
 
 
 const CheckOut = () => {
