@@ -1,18 +1,7 @@
-/*.count {
-    display: flex;
-    justify-content: center;
+
+h3{
+    color: rgb(10, 98, 150);
 }
-.v {
-    display: flex;
-    justify-content: center;
+p {
+    color: rgb(10, 98, 150);
 }
-.item {
-   padding: 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 50px;
-}
-.btn{
-    padding: 3px;
-}*/

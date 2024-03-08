@@ -8,13 +8,21 @@ import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
     return (
         <>
-           <div> <Link to={'/'}>
-                <img  src="/assets/img/logo.png.png" alt="" className="logo" />
-            </Link>
-            <Link to={'/cart'}>
-                <CardWidget /> 
+            <div>
+                <Link to={'/'}>
+
+                    <img src="/assets/img/logo.png.png" alt="" className="logo" />
+
                 </Link>
+
+                <Link to={'/cart'}>
+
+                    <CardWidget />
+
+                </Link>
+
             </div>
+
             <ul className="list">
 
                 <li>
@@ -40,9 +48,9 @@ const NavBar = () => {
 
             </ul>
 
-          
-       
-    
+
+
+
 
 
         </>

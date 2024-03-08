@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
 import { db } from '../../Firebase/config';
-import { collection,getDocs,where,query } from 'firebase/firestore';
+import { collection, getDocs, where, query } from 'firebase/firestore';
 
 
 
@@ -16,7 +16,7 @@ const ItemListcontainer = () => {
 
 
    useEffect(() => {
-      
+
 
       const myProducts =
          categoryId ?

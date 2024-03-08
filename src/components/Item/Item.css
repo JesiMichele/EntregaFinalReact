@@ -1,19 +1,30 @@
 .product{
+    max-width: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     gap: 30px;
     margin-top: 150px;
-}
+    transition: transform 0.2s ease-in-out
+    
+    }
 img{
     width: 100px;
     height: 100px;
-}
-h2{
+    }
+.tittle{
     font-size: 15px;
     text-decoration: none;
-    color: rgb(22, 20, 20);
-    color: rgb(8, 87, 133);
+    color: rgb(10, 98, 150);
     text-shadow: 2px 2px 4px #000000;
-}
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%; 
+    }
+
+

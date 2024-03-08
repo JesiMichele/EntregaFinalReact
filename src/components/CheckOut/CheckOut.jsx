@@ -82,7 +82,7 @@ const CheckOut = () => {
     return (
         <div className='form-container'>
 
-            <h1>Enter your details</h1>
+            <h1 className='enter'>Enter your details</h1>
 
             <form onSubmit={ctrlFormulario}>
 

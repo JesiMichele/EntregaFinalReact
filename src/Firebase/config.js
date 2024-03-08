@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 
-const firebaseConfig = {
+/*const firebaseConfig = {
 
   apiKey: import.meta.env.VITE_API_KEY,
 
@@ -17,7 +17,25 @@ const firebaseConfig = {
 
   measurementId: import.meta.env.VITE_MEASUREMENT_ID,
 
+};*/
+const firebaseConfig = {
+
+  apiKey: "AIzaSyCNNFTwOUa4VesrxDHkVeVn4mGFZ5iqiCU",
+
+  authDomain: "reactjs-49598.firebaseapp.com",
+
+  projectId: "reactjs-49598",
+
+  storageBucket: "reactjs-49598.appspot.com",
+
+  messagingSenderId: "779926726322",
+
+  appId: "1:779926726322:web:cd72ff19c9f282a57f4bab",
+
+  measurementId: "G-T7PC92Z7JD"
+
 };
+
 
 const app = initializeApp(firebaseConfig);
 

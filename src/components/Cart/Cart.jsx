@@ -18,7 +18,7 @@ const Cart = () => {
             {cart.length == 0
                 ?
                 <>
-                    <h2>There are no products in the cart</h2>
+                    <h2 className='noprod'>There are no products in the cart</h2>
                     <Link to={'/'}>Back to top</Link>
                 </>
                 :

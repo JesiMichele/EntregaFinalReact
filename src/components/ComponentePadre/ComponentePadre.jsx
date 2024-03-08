@@ -11,7 +11,7 @@ const ComponentePadre = () => {
 
 
       <ComponenteHijo>
-        <h1>Esta es nuestra selecion</h1>
+        <h1>Esta es nuestra seleccion</h1>
         <p>"Explora nuestra exclusiva selección de lentes de sol: estilo y protección en un solo lugar."</p>
       </ComponenteHijo>
 
