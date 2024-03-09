@@ -7,7 +7,7 @@ import { CartContext } from '../../Context/CartContext'
 const CardWidget = () => {
 
 
-  const { totalCantidad, eliminarItem } = useContext(CartContext)
+  const { totalCantidad} = useContext(CartContext)
 
   return (
     <>

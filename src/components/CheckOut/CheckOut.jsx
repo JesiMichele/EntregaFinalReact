@@ -7,7 +7,7 @@ import './CheckOut.css'
 
 const CheckOut = () => {
 
-    const { cart, totalCarrito, totalCantidad, vaciarCarrito } = useContext(CartContext)
+    const { cart, totalCarrito, vaciarCarrito } = useContext(CartContext)
 
     const [nombre, setNombre] = useState("")
     const [apellido, setApelllido] = useState("")

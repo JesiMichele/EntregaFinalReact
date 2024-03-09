@@ -28,9 +28,16 @@ const ItemDetail = ({ producto }) => {
       <p>{producto.description}</p>
       <p>{producto.category}</p>
 
-      {producto.stock == 0 ? <h2>EL PRODUCTO NO TIENE STOCK</h2> : (
-        cart ? <Link to={'/cart'}>Ir al carrito</Link> : <ItemCount initial={1} stock={producto.stock} onAdd={onAdd} />
-      )}
+      {producto.stock === 0 ? (
+        <div>
+          <h2>THE PRODUCT IS OUT OF STOCK</h2>
+          <Link to="/">Back to home</Link>
+        </div>
+      )
+
+        : (
+          cart ? <Link to={'/cart'}>Ir al carrito</Link> : <ItemCount initial={1} stock={producto.stock} onAdd={onAdd} />
+        )}
 
 
 
