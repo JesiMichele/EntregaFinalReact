@@ -1,5 +1,22 @@
-.footer{
+/*.footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 10px;
-}
+}*/
+.footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+    margin-top: 350px; /* Alineación del texto */
+  }
+  
+  .footer a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón por encima */
+  }
+  

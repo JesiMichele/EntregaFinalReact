@@ -12,7 +12,7 @@ const ThemeProvider = ({ children }) => {
     const [isDarkMode, setIsDarkMode] = useState(false)
 
     const toggleDarkMode = () => {
-        setIsDarkMode( prevMode=> !prevMode)
+        setIsDarkMode(prevMode => !prevMode)
     }
 
 
